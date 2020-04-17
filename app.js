@@ -4,7 +4,7 @@ var app = express();
 
 app.use(express.static('public'));
 app.get('/',function(req, res){
-    res.send('Hello home page');
+    res.send('<h1>Hello home page</h1>');
 });
 
 app.get('/dynamic', function(req,res){
