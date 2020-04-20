@@ -27,3 +27,12 @@ app.listen(3000, function(){
 });
 
 
+// db((err, conn) => {
+//     if(err) throw err;
+//     let sql = "insert into Board set ?;"
+//     conn.query(sql, board, (err, results) => {
+//       if(err) throw err;
+//       res.send(results);
+//     })
+//   })
+// });
