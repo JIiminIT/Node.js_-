@@ -1,7 +1,7 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "main": "Test1.js",
+  "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
     "jade": "^1.11.0",
